@@ -50,7 +50,7 @@
         <com.android.quicksearchbox.ui.QueryTextView
             android:id="@+id/search_src_text"
             android:layout_width="0dip"
-            android:layout_height="wrap_content"
+            android:layout_height="56dp"
             android:layout_weight="1.0"
             android:layout_marginTop="6dip"
             android:layout_marginBottom="6dip"
@@ -64,8 +64,6 @@
             android:inputType="text|textAutoComplete"
             android:textSize="18sp"
             android:textStyle="normal"
-            android:textColor="@android:color/primary_text_light"
-            android:textColorHint="@color/search_hint"
             android:imeOptions="actionGo"
         />
 
@@ -75,7 +73,6 @@
             android:layout_height="match_parent"
             android:layout_marginTop="6dip"
             android:layout_marginBottom="6dip"
-            android:foreground="#0000"
             android:src="@drawable/ic_baseline_arrow_forward_24"
             android:visibility="gone" />
 
@@ -84,7 +81,6 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginRight="-4dip"
-            android:foreground="#0000"
             android:src="@drawable/ic_round_keyboard_voice_24" />
     </LinearLayout>
 
