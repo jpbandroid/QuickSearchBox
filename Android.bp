@@ -23,6 +23,7 @@ package {
 android_app {
     name: "QuickSearchBox",
     sdk_version: "current",
+    min_sdk_version: "22",
     static_libs: [
         "guava",
         "android-common",

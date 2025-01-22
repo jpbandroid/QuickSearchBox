@@ -16,8 +16,8 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
       package="com.android.quicksearchbox" 
-      android:versionCode="222024"
-        android:versionName="2.2">
+      android:versionCode="252025"
+        android:versionName="2.5">
 
     <original-package android:name="com.android.quicksearchbox" />
 
